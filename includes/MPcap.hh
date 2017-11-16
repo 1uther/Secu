@@ -1,8 +1,8 @@
-#ifndef MPACKET_HH_
-#define MPACKET_HH_
+#ifndef MPCAP_HH_
+#define MPCAP_HH_
 
 
-class			MPacket
+class			MPcap
 {
 private:
 		guint32 ts_sec;         /* timestamp seconds */
@@ -12,9 +12,9 @@ private:
 		byte	*data;			/* packet s data */
 
 public:
-  MPacket();
-  ~MPacket();
+  MPcap();
+  ~MPcap();
 
 };
 
-#endif /* !MPACKET_HH_ */
+#endif /* !MPCAP_HH_ */
